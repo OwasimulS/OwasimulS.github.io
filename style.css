@@ -90,3 +90,25 @@ img {
     width: 25%;
     height: 25%;
 }
+
+.contact {
+    display:flex;
+    margin: 20px;
+    flex-direction: column;
+    padding:20px;
+    background-color:azure;
+}
+#contactBox {
+    display:flex;
+    margin: 20px;
+    flex-direction:column;
+}
+#contactBox h1 {
+    text-align: center;
+}
+
+#projectBox {
+    display:flex;
+    margin:20px;
+    flex-direction: column;
+}
