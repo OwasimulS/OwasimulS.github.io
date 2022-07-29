@@ -1,0 +1,52 @@
+.container h3 {
+    text-align:center;
+}
+#imageArea {
+    display:flex;
+    background-image: url("Pictures/icde.jpg");
+    justify-content: center;
+    height: 200px;
+    margin: 20px;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:purple;
+    background-color: thistle;
+}
+#aboutMe {
+    background-color: lavender;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    text-align:center;
+    margin: 20px;
+}
+#imageArea img {
+    border-radius: 50%;
+    margin: 10px;
+}
+#bottom {
+    background-color: aliceblue;
+    display: flex;
+    margin: 20px;
+}
+.container {
+    margin: 20px;
+    padding: 10px;
+}
+.container img {
+    height: 105px;
+    width: 160px;
+}
+#links {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+#topBar {
+    margin: 20px;
+    padding:5px;
+    padding-left: 20px;
+    background-color:palegreen;
+}
