@@ -112,3 +112,6 @@ img {
     margin:20px;
     flex-direction: column;
 }
+#projectBox h1 {
+    text-align:center;
+}
