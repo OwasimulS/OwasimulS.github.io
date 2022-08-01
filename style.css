@@ -57,8 +57,6 @@ body {
     align-items: center;
 }
 a {
-    width: 20%;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -114,4 +112,24 @@ img {
 }
 #projectBox h1 {
     text-align:center;
+}
+
+@media(max-width: 1030px) {
+    #topBar {
+        margin: 0px;
+        padding:5px;
+    }
+    #bottom {
+        flex-direction: column;
+    }
+    img {
+        width:50%;
+        height:50%;
+    }
+    .contact{
+        margin: 0px;
+    }
+    .exp {
+        margin: 0px;
+    }
 }
