@@ -57,7 +57,10 @@ body {
     align-items: center;
 }
 a {
-    text-decoration: none;
+    text-decoration: none; 
+}
+.barItem {
+    color: palevioletred;
 }
 
 .exp {
