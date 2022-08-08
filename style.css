@@ -32,6 +32,12 @@ body {
     display: flex;
     margin: 20px;
 }
+#showMoreInfo {
+    background-color: aliceblue;
+    display:flex;
+    margin:20px;
+    padding:10px;
+}
 .container {
     margin: 20px;
     padding: 10px;
